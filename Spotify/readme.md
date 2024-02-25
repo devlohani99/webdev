@@ -1,2 +1,2 @@
 
-Clich Here To Visit: https://devlohani99.github.io/webdev/Spotify/index.html
+Clich Here To Visit: https://devlohani99.github.io/webdev/index.html
