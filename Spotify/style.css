@@ -1,0 +1,136 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(3, 95, 64);
+    font-family: 'Merriweather', sans-serif;
+    color: #fff; /* Set default text color */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    padding: 10px 0; /* Add padding for better spacing */
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+    height: 83px;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0 12px;
+    font-size: 1.1em; /* Adjust font size for better readability */
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.brand img {
+    width: 181px;
+    padding: 0 8px;
+    border-radius: 6px; /* Add border radius to the brand image */
+}
+
+.container {
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    width: 70%;
+    padding: 34px;
+    border-radius: 12px;
+    margin: 23px auto;
+    background-image: url('https://getwallpapers.com/wallpaper/full/7/4/9/504570.jpg');
+    font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Add box shadow for depth */
+}
+
+.bottom {
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#myProgressBar {
+    width: 80vh;
+    cursor: pointer;
+}
+
+.icons {
+    margin-top: 15px;
+    font-size: 1.2em; /* Adjust icon size */
+}
+
+.icons i {
+    cursor: pointer;
+    margin-right: 10px; /* Add margin between icons */
+}
+
+.songlist {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    padding: 0 20px; /* Add padding for better spacing */
+}
+
+.songlist img {
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp {
+    margin: 0 23px;
+    font-size: 0.9em; /* Adjust font size */
+}
+
+.timestamp i {
+    cursor: pointer;
+    margin-left: 5px; /* Add margin to timestamp icon */
+}
+
+.songiteamcontainer {
+    margin-top: 4px;
+}
+
+.songinfo {
+    position: absolute;
+    left: 10vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+}
+
+.songinfo img {
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+/* Add hover effect to songinfo image */
+.songinfo:hover img {
+    opacity: 1;
+}
