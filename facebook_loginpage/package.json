@@ -1,0 +1,16 @@
+{
+  "name": "new-folder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build":"vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.1.6"
+  }
+}
