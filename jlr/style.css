@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400; /* Corrected the font weight to a numerical value */
+}
+
+nav {
+    background-color: #191010;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+}
+
+nav ul {
+    font-size: 20px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li a img {
+    height: 64px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    color: black;
+    height: 100%;
+    padding: 0 30px;
+}
+
+nav a:hover {
+    background-color: gray;
+}
+
+nav li:first-child {
+    margin-right: auto;
+    height: 50px;
+}
+
+.image-container {
+    background-image: url(https://wallpaperaccess.com/full/1544436.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 1490px;
+    height: 700px;
+    padding: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.middle {
+    justify-content: center;
+    text-align: center;
+}
+
+.middle button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.middle button:hover {
+    background-color: #0e190e;
+}
+
+.middle h1 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.last {
+    background-color: rgb(0, 0, 0);
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #191010; /* Dropdown background color */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white; /* Dropdown link color */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    text-align: center;
+}
